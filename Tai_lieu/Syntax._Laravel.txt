@@ -1,0 +1,17 @@
+============ELOQUENT ORM=============
+- "::" :đây là Scope Resolution Operator (toán tử phạm vi).
+        Nó dùng để truy cập thuộc tính tĩnh (static properties) và 
+        phương thức tĩnh (static methods) của một class mà không cần khởi tạo đối tượng.
+    ex: class MyClass {
+            public static $name = "Hello Laravel!";
+        }
+        echo MyClass::$name; // Kết quả: Hello Laravel!
+
+- "->" :Object Operator (toán tử đối tượng).
+        Nó được dùng để truy cập thuộc tính (biến) và
+        phương thức (hàm) của một đối tượng (object) trong lập trình hướng đối tượng (OOP).
+    ex: class MyClass {
+            public $name = "Hello Laravel!";
+        }
+        $person = new MyClass();
+        echo $person->$name; // Kết quả: Hello Laravel!

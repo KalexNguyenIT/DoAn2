@@ -1,0 +1,6 @@
+================================= MODEL =================================
+
+1.Các câu lệnh cơ bản với MODEL(dùng CMD)
+    - Tạo 1 model mới
+    => php artisan make:model <Tên model>\
+    -
