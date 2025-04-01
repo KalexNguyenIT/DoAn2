@@ -15,13 +15,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" />
     <!-- Jquery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    @yield('script')
     <!-- Vite -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
 </head>
+<style>
+    @yield('style')
+</style>
 
 <body class="font-sans antialiased max-w-8xl mx-auto">
     @include('layouts.sidebar')
-
 </body>
 
 </html>
